@@ -12,7 +12,7 @@ tell application "iTunes"
 	-- Bot name to append to your name
 	set slack_botname to " (Music)"
 	
-	repeat until application "Spotify" is not running
+	repeat until application "iTunes" is not running
 		set track_name to name of current track
 		set track_artist to artist of current track
 		set track_album to album of current track
